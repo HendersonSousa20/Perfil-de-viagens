@@ -5,7 +5,7 @@ Pagina perfil de um website de viagem. <br/>
 </p>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/thumbnail.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/Thumbnail.png" width="100%">
 </p>
 
 
@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 pagina de perfil do um website de viagem .
 
-- [Acesse o projeto finalizado, online](https://hendersonsousa20.github.io/devlinks/)
+- [Acesse o projeto finalizado, online](https://hendersonsousa20.github.io/Perfil-de-viagens/)
 
 ## 🔖 Layout
 
