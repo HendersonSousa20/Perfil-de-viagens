@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #ef5f4c;
+    --background-color: #ffffff;
+    --surface-color: #f5f5f5;
+    --skeleton-color: #d9d9d9;
+    --shape-transparency: grey;
+    --text-color-primary: #313131;
+    --text-color-secondary: #6c6c6c;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+
+
+nav {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.etcs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.etcs img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.etcs i, .etcs a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    text-align: center;
+    align-items: center;
+}
+
+.etcs i {
+    font-size: 20px;
+}
+
+.etcs i:hover {
+    color: #ef5f4c;
+}
+
+.etcs a:hover {
+ color: #ef5f4c;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.it {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--text-color-primary);
+}
+
+header p {
+    color: var(--text-color-secondary);
+}
+
+.texts {
+    max-width: 300px;
+}
+
+header img {
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+} 
+
+.more {
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-color-secondary);
+}
+
+.more i {
+    color: var(--brand-color);
+    font-size: 20px;
+}
+
+.di {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.di span {
+    font-size: 14px;
+}
+
+main {
+    margin-top: 50px;
+    margin-inline: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+   padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    color: var(--text-color-primary);
+}
+
+.end {
+    display: flex;
+    gap: 10px;
+}
